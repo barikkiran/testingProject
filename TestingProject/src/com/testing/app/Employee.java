@@ -5,6 +5,11 @@ public class Employee {
 	private int empId;
 	private String name;
 	private String address;
+	private double salary;
+
+	public Employee() {
+
+	}
 
 	public int getEmpId() {
 		return empId;
@@ -28,6 +33,14 @@ public class Employee {
 
 	public void setAddress(String address) {
 		this.address = address;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
 	}
 
 	@Override
